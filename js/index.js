@@ -7,7 +7,7 @@
   var minutes = date.getMinutes();
   
   if(minutes < 10) {
-    return '0'+minutes;
+    return minutes = '0' + minutes;
   }
 
   var current_time = hours + ':' + minutes;
