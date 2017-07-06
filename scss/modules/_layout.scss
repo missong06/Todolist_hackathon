@@ -7,8 +7,6 @@
 
 .clock_wrapper, .todoList_box, .weather_box, .link_box, .setting_box{
     position: absolute;
-    // test style 시작
-    // test style 끝
 }
 .clock_wrapper{
     border: #fff;
@@ -19,23 +17,23 @@
 }
 
 .todoList_box{
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 15px;
 }
 
 .weather_box{
-    right: 0;
-    top: 0;
+    right: 15px;
+    top: 20px;
 }
 
 .link_box{
-    left: 0;
-    top: 0;
+    left: 15px;
+    top: 20px;
 }
 
 .setting_box{
-    left: 0;
-    bottom: 0;
+    left: 15px;
+    bottom: 20px;
 }
 
 .fa.fa-bolt.fa-5x {

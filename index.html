@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Momentum</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous"> 
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -47,15 +48,15 @@
             <span class="temperature"></span>
         </div>
         <div class="link_box">
-            <h2 class="a11y_hidden">즐겨찾기</h2>
+            <h2 class="link_box_heading">즐겨찾기</h2>
             <ul class="site_list">
                 <li><a href="http://www.google.co.kr">Chrome tab</a></li>
             </ul>
-            <div class="new_site">
-                <input type="text" placeholder="Title">
-                <input type="text" placeholder="Address">
+            <div class="new_site hide">
+                <input type="text" class="new_site_title" placeholder="Title">
+                <input type="text" class="new_site_url" placeholder="Address">
             </div>
-            <button type="button" class="btn_addlink">add link</button>
+            <button type="button" class="btn_addLink fa fa-plus-circle"></button>
         </div>
         <div class="setting_box">
             <h2 class="a11y_hidden">설정 메뉴</h2>
@@ -75,7 +76,7 @@
             </ul>
         </div>
     </div>
-
+<script src="./js/links.js"></script>
 <script src="./js/clock.js"></script>
 </body>
 </html>
