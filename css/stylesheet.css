@@ -45,6 +45,14 @@ body {
   bottom: 20px;
 }
 
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 .link_box {
   width: 200px;
   position: relative;
@@ -80,6 +88,10 @@ body {
   padding: 5px 0;
 }
 
+.link_box ul.site_list li {
+  position: relative;
+}
+
 .link_box ul.site_list li a {
   display: inline-block;
   padding: 3px 10px;
@@ -92,7 +104,6 @@ body {
 }
 
 .link_box .new_site {
-  display: none;
   margin-top: -3px;
   padding: 5px 0;
   background: #444;
@@ -112,6 +123,21 @@ body {
 
 .link_box .btn_addLink {
   position: absolute;
-  top: 48px;
+  top: 55px;
   right: 5px;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.link_box .btn_delete {
+  border: none;
+  color: #fff;
+  background: none;
+  font-weight: bold;
+  outline: none;
+  position: absolute;
+  right: 3px;
+  top: 5px;
 }

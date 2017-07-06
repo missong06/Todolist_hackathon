@@ -1,3 +1,5 @@
+.show{display: block;}
+.hide{display: none;}
 .link_box{
     width: 200px;
     position: relative;
@@ -26,7 +28,8 @@
         opacity: 0.8;
         border-radius: 3px;
         padding: 5px 0;
-    }   
+    } 
+    ul.site_list li{ position: relative;} 
     ul.site_list li a{
         display: inline-block;
         padding: 3px 10px;
@@ -37,7 +40,6 @@
         color: #fff;
     }
     .new_site{
-        display: none;
         margin-top:-3px;
         padding: 5px 0;
         background: #444;
@@ -55,7 +57,21 @@
     }
     .btn_addLink{
         position: absolute;
-        top: 48px;
+        top: 55px;
         right: 5px;
+        color: #fff;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    .btn_delete{
+        border: none;
+        color: #fff;
+        background: none;
+        font-weight: bold;
+        outline: none;
+        position: absolute;
+        right: 3px;
+        top: 5px
     }
 }
