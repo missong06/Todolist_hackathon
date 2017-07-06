@@ -17,9 +17,6 @@ body {
 
 .clock_wrapper, .todoList_box, .weather_box, .link_box, .setting_box {
   position: absolute;
-  width: 200px;
-  height: 150px;
-  background: skyblue;
 }
 
 .clock_wrapper {
@@ -29,21 +26,92 @@ body {
 }
 
 .todoList_box {
-  right: 0;
-  bottom: 0;
+  right: 20px;
+  bottom: 15px;
 }
 
 .weather_box {
-  right: 0;
-  top: 0;
+  right: 15px;
+  top: 20px;
 }
 
 .link_box {
-  left: 0;
-  top: 0;
+  left: 15px;
+  top: 20px;
 }
 
 .setting_box {
-  left: 0;
-  bottom: 0;
+  left: 15px;
+  bottom: 20px;
+}
+
+.link_box {
+  width: 200px;
+  position: relative;
+}
+
+.link_box h2.link_box_heading {
+  font-size: 1.5rem;
+  color: #eee;
+  cursor: pointer;
+}
+
+.link_box .link_box_heading:focus, .link_box .link_box_heading:hover {
+  color: #fff;
+}
+
+.link_box .link_box_heading::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #111;
+  opacity: 0.8;
+  margin: 15px 0 0 20px;
+}
+
+.link_box ul.site_list {
+  width: 100%;
+  background: #111;
+  opacity: 0.8;
+  border-radius: 3px;
+  padding: 5px 0;
+}
+
+.link_box ul.site_list li a {
+  display: inline-block;
+  padding: 3px 10px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.link_box ul.site_list li a:focus, .link_box ul.site_list li a:hover {
+  color: #fff;
+}
+
+.link_box .new_site {
+  display: none;
+  margin-top: -3px;
+  padding: 5px 0;
+  background: #444;
+  opacity: 0.8;
+  border-radius: 0 0 3px 3px;
+}
+
+.link_box .new_site input {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background: none;
+  padding: 3px 0 0 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.link_box .btn_addLink {
+  position: absolute;
+  top: 48px;
+  right: 5px;
 }
