@@ -9,6 +9,8 @@
     position: absolute;
 }
 .clock_wrapper{
+    border: #fff;
+    background: skyblue;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -32,4 +34,9 @@
 .setting_box{
     left: 15px;
     bottom: 20px;
+}
+
+.fa.fa-bolt.fa-5x {
+    margin: 20px;
+    color: #fff;
 }

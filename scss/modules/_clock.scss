@@ -1,0 +1,21 @@
+body {
+  background: navy;
+}
+
+.clock_box {
+  position: relative;
+}
+
+time {
+  font-weight: bold;
+  font-size: 18rem;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.am {
+  font-size: 3rem;
+}

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous"> 
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="clock_wrapper">
             <h2 class="a11y_hidden">현재 시각</h2>
             <div class="clock_box">
-                <time datetime="2007-12-12 12:00">12:23</time>
+                <time datetime="2007-12-12 12:00"></time>
             </div>
             <div class="hello_box">
                 <span class="hello"></span><span class="user_name"></span>
@@ -43,7 +44,7 @@
         </div>
         <div class="weather_box">
             <h2 class="a11y_hidden">오늘의 날씨</h2>
-            <i class="fa"></i>
+            <i class="fa fa-bolt fa-5x" aria-hidden="true"></i>
             <span class="temperature"></span>
         </div>
         <div class="link_box">
@@ -75,8 +76,7 @@
             </ul>
         </div>
     </div>
-
-<script src="./js/index.js"></script>
 <script src="./js/links.js"></script>
+<script src="./js/clock.js"></script>
 </body>
 </html>
