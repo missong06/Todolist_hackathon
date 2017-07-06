@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko-KR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Momentum</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="clock_wrapper">
+            <h2 class="a11y_hidden">현재 시각</h2>
+            <div class="clock_box">
+                <time datetime=""></time>
+            </div>
+            <div class="hello_box">
+                <span class="hello"></span><span class="user_name"></span>
+            </div>
+        </div>
+        <div class="todoList_box">
+            <h2 class="a11y_hidden">오늘의 할일</h2>
+            <ul class="todoList_title">
+                <li>
+                    <button type="button">today</button>
+                    <ul class="todoList">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </li>
+                <li>
+                    <button type="button">index</button>
+                    <ul class="todoList">
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="weather_box">
+            <h2 class="a11y_hidden">오늘의 날씨</h2>
+            <i class="fa"></i>
+            <span class="temperature"></span>
+        </div>
+        <div class="link_box">
+            <h2 class="a11y_hidden">즐겨찾기</h2>
+            <ul class="site_list">
+                <li><a href="http://www.google.co.kr">Chrome tab</a></li>
+            </ul>
+            <div class="new_site">
+                <input type="text" placeholder="Title">
+                <input type="text" placeholder="Address">
+            </div>
+            <button type="button" class="btn_addlink">add link</button>
+        </div>
+        <div class="setting_box">
+            <h2 class="a11y_hidden">설정 메뉴</h2>
+            <ul class="setting_list">
+                <li class="themes">
+                    <ul class="theme_list">
+                        <li>자연</li>
+                        <li>음식</li>
+                    </ul>
+                </li>
+                <li class="colors">
+                    <ul class="color_list">
+                        <li>검정</li>
+                        <li>빨강</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="./js/index.js"></script>
 </body>
 </html>
